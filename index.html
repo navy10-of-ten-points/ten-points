@@ -5,8 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Yell5w :: Card news</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        
         <link rel="stylesheet" href="assets/css/w3.css">
-        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="assets/css/main.css"/>
+        
+        <!-- for main slider -->
+        <link rel="stylesheet" href="index.css"/>
+        <script src = "index.js"></script> 
+        <!-- for main slider out -->
         
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:url" content="https://navy10-of-ten-points.github.io/ten-points/"/>
@@ -45,7 +51,6 @@
     
     <body>
         
-        
         <div class="w3-top w3-hide-small">
             <div class="w3-bar w3-xlarge w3-black w3-hover-opacity-off" id="myNavbar">
             <a href="index.html" class="w3-bar-item w3-button" style = "text-decoration : none">HOME</a>
@@ -54,9 +59,28 @@
             <a href="main/manual.html" class="w3-bar-item w3-button" style = "text-decoration : none">ONLINE MANUAL</a>
             </div>
         </div>
+        
+        <!-- main slider -->
 
+        <div class = "slider">
+            <center><img class="mySlides" id = "pic1" src="images/testimg01.jpg"></center>
+            <center><img class="mySlides" id = "pic2" src="images/testimg02.jpg"></center>
+            <center><img class="mySlides" id = "pic3" src="images/testimg03.jpg"></center>
+        
+            <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+
+        </div>
+    
+        <!-- main slider out --> 
+        
+
+        
         <div class="container-fluid-fixed bg-2 text-center">
-            <h1><span style = "font-weight:300"><span style = "color: magenta ;font-size : 100px">C</span>ARD <span style = "color: #8AE75F ;font-size : 100px">N</span>EWS</span></h1>
+            <h1><span style = "font-weight:300">
+                <span style = "color: magenta ;font-size : 100px">C</span>ARD
+                <span style = "color: #8AE75F ;font-size : 100px">N</span>EWS</span>
+            </h1>
             
             <h3>- YELLOW05 -</h3>
             <a href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></a>
@@ -70,6 +94,8 @@
           <h3>Display card news</h3>
           <p>SMaSH</p>
         </div>
+        
+        <!-- footer -->
         
         <footer class="container-fluid bg-4 text-center">
             <section>
