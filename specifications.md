@@ -1,15 +1,15 @@
-#Description for Developers
+# Description for Developers
 
 ![Dev](https://navy10-of-ten-points.github.io/ten-points/images/for_developer.jpg)
 
-##General
+## General
 * Author : 손건호
 * Compatibility : Html 5 or later
 
-##Requirements
+## Requirements
 * Text Editor : Use the most attractive text editor for html
 
-##Structure
+## Structure
 |    Folder   | Description                                                                                                                    |
 |:-----------:|--------------------------------------------------------------------------------------------------------------------------------|
 |    assets   | Contains .css files and .javascript files                                                                                      |
@@ -20,5 +20,5 @@
 |  index.html | The main page. It is not directly associated with cardnews. Is is the page to explain developer's information and license etc. |
 | LICENSE.txt | It is the text file which explains the most important license named 'cc3.0 unported'.                                          |
 
-####css, javascript
+#### css, javascript
 Each files, they have comments. Refer to the comments of each file.
