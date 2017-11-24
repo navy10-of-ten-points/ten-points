@@ -1,5 +1,7 @@
 #<center>오픈소스 사양 설명서</center>
 
+![Dev](https://navy10-of-ten-points.github.io/ten-points/images/for_developer.jpg)
+
 ##General
 * Author : 손건호
 * Compatibility : Html 5 or later
