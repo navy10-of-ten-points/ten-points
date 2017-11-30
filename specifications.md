@@ -22,3 +22,6 @@
 
 #### css, javascript
 Each files, they have comments. Refer to the comments of each file.
+
+* You can find w3.css file in https://www.w3schools.com/w3css/w3css_downloads.asp
+* Download bootstrap to use this project more fast.
