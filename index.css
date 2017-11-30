@@ -1,0 +1,21 @@
+.slider{
+    padding-top : 58px;
+}
+
+#pic2 {
+    display: none;
+}
+
+#pic3 {
+    display: none;
+}
+
+#pic4 {
+    display: none;
+}
+
+@media only screen and (max-width: 735px){
+    
+    .slider img{
+        height: 100px;
+    }
