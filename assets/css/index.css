@@ -3,6 +3,10 @@
     padding-top : 58px;
 }
 
+.ul {
+   list-style-type: none;  
+}
+
 #pic2 {
     display: none;
 }
@@ -20,10 +24,10 @@
 }
 
 
-@media only screen and (max-width: 735px){
+@media only screen and (max-width: 700px){
     
-    .slider img{
-        height: 100px;
+    .slider button{
+        font-size: 5px;
 }
 
     
