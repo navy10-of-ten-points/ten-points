@@ -63,7 +63,7 @@ If you want to make some development, or if you want to fix some bugs, you can j
 
 ##### 2. Fork & Clone
 
-​	Go to our [github repository](https://sohn1029.github.io/ten-points/) and you can find a fork button on the upper right corner. Click it and wait until it is forked to your repository. Then go to your forked repository. In the ```<>code```, you may find a green button with ```Clone or download``` written on it. Click it and click open in desktop if you already have downloaded the github desktop. The desktop app will pop up and clone automatically.
+​	Go to our [github repository](https://github.com/navy10-of-ten-points/ten-points) and you can find a fork button on the upper right corner. Click it and wait until it is forked to your repository. Then go to your forked repository. In the ```<>code```, you may find a green button with ```Clone or download``` written on it. Click it and click open in desktop if you already have downloaded the github desktop. The desktop app will pop up and clone automatically.
 
 ##### 3. Pull & Make Changes 
 
