@@ -1,4 +1,5 @@
 .slider{
+    z-index: 1;
     padding-top : 58px;
 }
 
@@ -14,8 +15,16 @@
     display: none;
 }
 
+#hy_button{
+    z-index: 2;
+}
+
+
 @media only screen and (max-width: 735px){
     
     .slider img{
         height: 100px;
-    }
+}
+
+    
+    
