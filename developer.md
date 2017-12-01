@@ -13,6 +13,11 @@ If you want to make some development, or if you want to fix some bugs, you can j
    * [github](#github)
    * [license](#license)
 * [Steps](#steps)
+   * [Installation](#installation)
+   * [Fork & Clone](#fork-&-clone)
+   * [Pull & Make Changes](#pull-&-make-changes)
+   * [Commit & Push](#commit-&-push)
+   * [Create Pull Request](#create-pull-request)
 * [Code structure](#code-structure)
    * [assets](#assets)
    * [sass](#sass)
@@ -52,10 +57,25 @@ If you want to make some development, or if you want to fix some bugs, you can j
 
 -----------------------------------------------------
 
-1. ​
+##### Installation 
 
-   ​
+​	First, install github desktop on your computer. Although it is not necessary, we still recommend you, especially for people who never used github before, to use it because it makes your pull & push jobs much more convenient. You can download it frome [here](https://desktop.github.com/).
 
+##### Fork & Clone
+
+​	Go to our [github repository](https://sohn1029.github.io/ten-points/) and you can find a fork button on the upper right corner. Click it and wait until it is forked to your repository. Then go to your forked repository. In the ```<>code```, you may find a green button with ```Clone or download``` written on it. Click it and click open in desktop if you already have downloaded the github desktop. The desktop app will pop up and clone automatically.
+
+##### Pull & Make Changes 
+
+​	Now you can make changes to the files. Go to your cloned folder and do your own work. While working, don't forget to pull. The more often you pull, the safer it becomes. At the top of the desktop app, you can find ```fetch origin``` or ```pull origin``` button, and click it to pull or ckeck if there are any changes made by others. You can save your work in the cloned folder. 
+
+##### Commit & Push
+
+​	Always remember to pull(fetch) before you commit. After no crushes have been found, your ```pull origin``` button must have changed to ```push to origin```. After write down your summary and description at the button left corner, you can click the ```push to origin``` to push. 
+
+##### Create Pull Request
+
+​	Now, go to your repository on github website and check if your changes have been done correctly. If there are samll issues, you can also fix them directly on the website. After it's done, go to ```Pull request``` and create a pull request. Your job ends here. If your changes are found suitable, then your changes will be merged to master by us.
 
 
 #### Code structure
