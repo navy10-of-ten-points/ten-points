@@ -43,7 +43,7 @@ If you want to make some development, or if you want to fix some bugs, you can j
   The general code style of HTML are listed [here](https://google.github.io/styleguide/htmlcssguide.html). 
 
 * ##### github
-  You can join our development through our [github repository](https://sohn1029.github.io/ten-points/). 
+  You can join our development through our [github repository](https://github.com/navy10-of-ten-points/ten-points). 
 
 * ##### license
   Our program runs under CCA 3.0 license.
