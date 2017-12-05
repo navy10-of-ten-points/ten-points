@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed');
+/*
+.contactbox {
+    position: relative;
+    width: 20%;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.contactbox:hover .image {
+    opacity: 0.3;
+}
+
+.contactbox:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    align-content: center;
+    background-color: lightgray;
+    color: black;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+*/
+
+.contactbox {
+    margin: 5px;
+    position: relative;
+    width: 20%;
+    float : right;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.contactbox:hover .overlay {
+    width: 100%;
+}
+
+.text {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-align: center;
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+}
+
+
+@media screen and (max-width: 600px) {
+    
+    .text{
+        padding: 5px;
+        font-size: 10px;
+        transition-duration: 0.2s;
+    }
+    
+
+}
